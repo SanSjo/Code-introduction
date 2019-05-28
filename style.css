@@ -1,4 +1,70 @@
 /* Example styling of a h1 element */
+body {
+	width: 100%;
+	margin: 0 auto;
+	background-color: pink;
+
+}
 h1 {
   color: #0025FF;
+  margin-left: auto;
+	margin-right: auto;
+	border: 4px dotted #0025FF;
+	border-radius: 15px 20px;
+	padding: 20px 20px;
+	padding-top: 20px;
+	width: 20%;
+	text-align: center;
+	margin-top: 7%;
+	font-size: 70px;
+	text-transform: uppercase;
+
 }
+
+p {
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	font-family: Gill sans;
+	line-height: 1.5;
+	font-size: 18px;
+	color: darkblue;
+
+}
+
+.aLink {
+	width: 20%;
+	text-decoration: none;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+	text-transform: uppercase;
+
+
+
+}
+
+.aLink :hover {
+	color: blue;
+
+
+}
+
+ul {
+	width: 35%;
+	margin-left: auto;
+	margin-right: auto;
+
+
+
+}
+
+li {
+
+	display: inline-block;
+	padding-right: 9%;
+	font-weight: bold;
+
+}
+
